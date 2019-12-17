@@ -1,0 +1,2 @@
+chromedriver2-34.exe com chrome-64bits versão 62 (https://www.slimjet.com/chrome/google-chrome-old-version.php)
+chromedriver2-34.exe com chrome-64bits Versão 66.0.3359.181 (Versão oficial) 64 bits
