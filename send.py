@@ -113,7 +113,8 @@ class Sender:#cls indica que o metodo eh de classe
             elem = self.driver.find_element_by_xpath('//span[contains(text(),"'+name+'")]')
             elem.click()
         def sendMessage(msg='Hi!'):
-            web_obj = self.driver.find_element_by_xpath("//div[@contenteditable='true']")
+            # web_obj = self.driver.find_element_by_xpath("//div[@contenteditable='true']")
+            web_obj = self.driver.find_element_by_xpath("//footer//div[@contenteditable='true']")
             web_obj.click()
             #ActionChains(self.driver).key_down(Keys.SHIFT).send_keys("teste com amor").key_up(Keys.SHIFT)
             #web_obj.send_keys('teste com \n amor')
@@ -131,7 +132,10 @@ class Sender:#cls indica que o metodo eh de classe
                 texto = texto + part + " \n "
             return texto
         def textByJquery(msg,ele):
+            print("""$c("div[contenteditable='true']").html(('.""" + msg + """').replace(/<br>/g, "\\n"));""")
             self.driver.execute_script("""$c("div[contenteditable='true']").html(('.""" + msg + """').replace(/<br>/g, "\\n"));""")
+            #self.driver.execute_script("""$c("div[contenteditable='true']").html(('.Love').replace(/<br>/g, "\\n"));""")
+            
             ele.send_keys(Keys.HOME+Keys.DELETE)#apaga ponto final e faz com que o whats reconheca texto
         #gotoChathead(name=c_name)
         sendMessage(msg=message)
@@ -170,70 +174,66 @@ class Sender:#cls indica que o metodo eh de classe
                 return achou
         
     def pesquisarNumero(self, contato, atual = None): #retorna um bool, se achou algum contato, então true
+        logging.debug('CHEGOU AQUI0')
         if atual is not None:
+            logging.debug('CHEGOU AQUI0 exite')
             if self.isTelefoneIguais(contato, atual):
+                logging.debug('CHEGOU AQUI0 sao iguais')
                 return False #não precisa pesquisa se são iguais
         if re.match('^.{8,25}$', contato):
-            ele = self.driver.find_element_by_xpath("//*[@id='side']/div/div/label/input")
+            #ele = self.driver.find_element_by_xpath("//*[@id='side']/div/div/label/input")
+            logging.debug('CHEGOU AQUI1')
+            ele = self.driver.find_element_by_xpath("//*[@id='side']/div[1]/div/label/div/div[2]")
             #("//input[@id='input-chatlist-search']")#entra em pesquisa
+            logging.debug('CHEGOU AQUI2')
             ele.clear()
+            logging.debug('CHEGOU AQUI3')
             ele.send_keys(contato)
+            logging.debug('CHEGOU AQUI4')
             time.sleep( 0.2 )
+            logging.debug('CHEGOU AQUI5')
             temContato = len(self.driver.find_elements_by_xpath("//*[@id='pane-side']//div[text()='Conversas']")) > 0 #se achou Conversas
+            logging.debug('CHEGOU AQUI6')
             ele.send_keys(Keys.RETURN) #então dá enter, e vai direto pro chat    
+            logging.debug('CHEGOU AQUI7')
             if(temContato == False):#se não achou, então sai da pesquisa
                 self.driver.find_element_by_xpath("//*[@id='side']//button//span[@data-icon='search']").click()
             return temContato
         else:
+            logging.debug('CHEGOU AQUI7 outro')
             return False
     
     def contatoAtual(self, secure=True ):#retorna o numero do contato que estava com a conversa aberta
+        logging.debug("contatoAtual")
         try:
             if secure:
                 self.driver.find_element_by_xpath("//*[@id='side']//button//span[@data-icon='search']").click() #close any contexmenu
                 time.sleep(0.3)#wait animation
         except NoSuchElementException:
             None
-        try:    #verifica se a barra lateral de info esta aberta
-            close = self.driver.find_element_by_xpath("//span//div//button//span[@data-icon='x']") #se estiver certinho, nao acha o botao de fechar a barra lateral
-            logging.debug("com erro1")
-        except NoSuchElementException: #se a barra lateral nao estiver aberta, entao abre
-            logging.debug("sem erro1")
-            #try:
-                #menu = self.driver.find_element_by_xpath("//*[@id='main']//div[@title='Menu']/span[@data-icon='menu']")
-                #menu.click()#abro o menu
-                #try:
-                #    time.sleep(0.1)
-                #    opcao = self.driver.find_element_by_xpath("//li//div[text()='Dados do contato']")
-                #    opcao.click()
-                #except NoSuchElementException:
-                #    try:#se for o menu de Grupo, entao nao acha 'Dados do contato', entao tem que fechar o menu
-                #        menu = self.driver.find_element_by_xpath("//*[@id='main']//div[@title='Menu']/span[@data-icon='menu']")
-                #        menu.click()#fecho o menu
-                #    except NoSuchElementException:
-                #        None
-                
-            #except NoSuchElementException:
-            #    None#a pagina nao esta com nenhum chat aberto, ou seja estah na tela inicial
-            
-            #self.driver.find_element_by_xpath("//div[@class='executando-automacao']")[0].sendKeys(27) #aperta esc, não funciona
-            
-            menus = self.driver.find_elements_by_xpath("//div[@id='main']/header/div") 
+        try:
+            close = self.driver.find_element_by_xpath("//span//div//button//span[@data-icon='x']")
+        except NoSuchElementException:
+            menus = self.driver.find_elements_by_xpath("//div[@id='main']/header/div")
             if len(menus) > 0:#se zero, a pagina esta com nenhum chat aberto, ou seja estah na tela inicial
                 menus[1].click()#abro o menu
-        try: #pega o numero e então fecha a barra lateral
-            ele_tel = self.driver.find_element_by_xpath("//div/span[@class='selectable-text invisible-space copyable-text']/span[contains(text(),'+55 ')]")  #self.driver.find_element_by_xpath("//div[@data-list-scroll-container='true']//div/span[@class='selectable-text invisible-space copyable-text']/span[contains(text(),'+55 ')]")
+        try:
+            logging.debug("tentando achar telefone")
+            #ele_tel = self.driver.find_element_by_xpath("//div/span[@class='selectable-text invisible-space copyable-text']/span[contains(text(),'+55 ')]")
+            ele_tel = self.driver.find_element_by_xpath("//div/span[contains(@class,'selectable-text invisible-space copyable-text')]/span[contains(text(),'+55 ')]")
             numero = self.__waitForText(elem = ele_tel, timeOut=1)
-            #time.sleep(1)
             #close = self.driver.find_element_by_xpath("//span//div//button//span[@data-icon='x']")
-            #logging.debug(close)
-            #close.click() #nao esta funcionando com o whatsappweb, teria que fazer um hover antes
+            #close = self.__waitUntilTakeEl(0.5, "//span//div//button//span[@data-icon='x']")
+            #close.click()
+            logging.debug("chegou1")
+            logging.debug(numero)
             self.closeInfoBar()
-            #time.sleep(1)
+            logging.debug("chegou2")
             logging.debug(numero)
             return numero
         except NoSuchElementException:
-            logging.debug("COM erro2")
+            logging.debug("deu exessão")
+            logging.debug(NoSuchElementException)
             return ""
     
     def importJquery(self):#variavel jquery é $c

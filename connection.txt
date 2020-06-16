@@ -1,5 +1,5 @@
 [main]
-command_executor = http://127.0.0.1:53616
-session_id = 0ac6cfe2e2cfc76242edae97f2d8ee61
-started = 7760
+command_executor = http://127.0.0.1:52038
+session_id = fea65d07f81db186906a8215f3c83bd4
+started = 9328
 
