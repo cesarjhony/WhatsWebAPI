@@ -1025,3 +1025,1528 @@ DEBUG:urllib3.connectionpool:http://127.0.0.1:52038 "POST /session/fea65d07f81db
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
 WARNING:root:sendFromOptions() demorou 1.468 seconds!
 WARNING:root:main() demorou 1.500 seconds!
+DEBUG:root:Sended
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/url {}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "GET /session/4c4245814302c2df056ecdf3a468f7c1/url HTTP/1.1" 200 95
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:https://web.whatsapp.com/
+WARNING:root:conectar() demorou 0.016 seconds!
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "POST /session/4c4245814302c2df056ecdf3a468f7c1/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/execute/sync {"script": "(function(){\n    if( $c(\".executando-automacao\").length == 0 ){\n    $c(\"body\").prepend('<div class=\"executando-automacao\">'+\n    '<button style=\"user-select: all;pointer-events: all;text-align: center;width: 100%;background-color: lightgray;\" onclick=\"$c(\\'.executando-automacao\\').hide()\">fechar</button>'+\n    '<div></div></div>');\n    var style = $c('<style>'+\n'.executando-automacao{pointer-events:none;margin:auto;position:fixed;display:none;z-index:1000;background-color:red;top:0;right:0;left:0;bottom:0;'+\n'}.executando-automacao > div {border:15px solid #f3f3f3;border-radius:50%;border-top:15px solid #3498db;width: 80px;'+\n'height:80px;animation:rodar 2s linear infinite;display:block;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;'+\n'}@keyframes rodar {0% { transform: rotate(0deg); }100% { transform: rotate(360deg); }'+\n'}'+\n    '</style>');\n    $c('html > head').append(style);}\n    $c(\".executando-automacao\").show();\n    })();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "POST /session/4c4245814302c2df056ecdf3a468f7c1/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:contatoAtual
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/element {"using": "xpath", "value": "//*[@id='side']//button//span[@data-icon='search']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "POST /session/4c4245814302c2df056ecdf3a468f7c1/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-6/click {"id": "0.5152235453063099-6"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "POST /session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-6/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/element {"using": "xpath", "value": "//span//div//button//span[@data-icon='x']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "POST /session/4c4245814302c2df056ecdf3a468f7c1/element HTTP/1.1" 200 370
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/elements {"using": "xpath", "value": "//div[@id='main']/header/div"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "POST /session/4c4245814302c2df056ecdf3a468f7c1/elements HTTP/1.1" 200 174
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-2/click {"id": "0.5152235453063099-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "POST /session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-2/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:tentando achar telefone
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/element {"using": "xpath", "value": "//div/span[contains(@class,'selectable-text invisible-space copyable-text')]/span[contains(text(),'+55 ')]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "POST /session/4c4245814302c2df056ecdf3a468f7c1/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-7/text {"id": "0.5152235453063099-7"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "GET /session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-7/text HTTP/1.1" 200 70
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-7/text {"id": "0.5152235453063099-7"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "GET /session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-7/text HTTP/1.1" 200 70
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-7/text {"id": "0.5152235453063099-7"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "GET /session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-7/text HTTP/1.1" 200 70
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-7/text {"id": "0.5152235453063099-7"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "GET /session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-7/text HTTP/1.1" 200 70
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-7/text {"id": "0.5152235453063099-7"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "GET /session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-7/text HTTP/1.1" 200 70
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-7/text {"id": "0.5152235453063099-7"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "GET /session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-7/text HTTP/1.1" 200 70
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-7/text {"id": "0.5152235453063099-7"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "GET /session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-7/text HTTP/1.1" 200 70
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-7/text {"id": "0.5152235453063099-7"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "GET /session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-7/text HTTP/1.1" 200 86
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:0.07100000000000001
+DEBUG:root:chegou1
+DEBUG:root:+55 41 9756-5842
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/execute/sync {"script": "(function(){\n            //$x \u00e9 xpath pr\u00f3prio dos navegadores, n\u00e3o eh jquery!\n            //$x(\"//span//div//button//span[@data-icon='x']\")[0].click()\n            function getElementByXpath(path) {\n              return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;\n            }\n            $c(\n                getElementByXpath(\"//span//div//button//span[@data-icon='x']\")\n            ).trigger(\"click\");\n    })();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "POST /session/4c4245814302c2df056ecdf3a468f7c1/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:chegou2
+DEBUG:root:+55 41 9756-5842
+DEBUG:root:enviarMensagem
+DEBUG:root:isTelefoneIguais
+DEBUG:root:+55 41 9756-5842
+DEBUG:root:4197565842
+DEBUG:root:teste telefone eh o ataual
+DEBUG:root:4197565842
+DEBUG:root:4197565842
+DEBUG:root:sao iguais
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/element {"using": "xpath", "value": "//footer//div[@contenteditable='true']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "POST /session/4c4245814302c2df056ecdf3a468f7c1/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-8/click {"id": "0.5152235453063099-8"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "POST /session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-8/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/execute/sync {"script": "$c(\"div[contenteditable='true']\").html(('.av takeo atomya 392<br />1 Combo H ch -> Unid 17,00<br />CARTAO: 17,00<br />').replace(/<br>/g, \"\\n\"));", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "POST /session/4c4245814302c2df056ecdf3a468f7c1/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-8/value {"text": "\ue011\ue017", "value": ["\ue011", "\ue017"], "id": "0.5152235453063099-8"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "POST /session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-8/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-8/value {"text": "\ue006", "value": ["\ue006"], "id": "0.5152235453063099-8"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "POST /session/4c4245814302c2df056ecdf3a468f7c1/element/0.5152235453063099-8/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI0 exite
+DEBUG:root:isTelefoneIguais
+DEBUG:root:+55 41 9756-5842
+DEBUG:root:4197565842
+DEBUG:root:teste telefone eh o ataual
+DEBUG:root:4197565842
+DEBUG:root:4197565842
+DEBUG:root:CHEGOU AQUI0 sao iguais
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "POST /session/4c4245814302c2df056ecdf3a468f7c1/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59785/session/4c4245814302c2df056ecdf3a468f7c1/execute/sync {"script": "$c(\".executando-automacao\").hide();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59785
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59785 "POST /session/4c4245814302c2df056ecdf3a468f7c1/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:sendFromOptions() demorou 2.313 seconds!
+WARNING:root:main() demorou 2.375 seconds!
+DEBUG:root:Sended
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/url {}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "GET /session/7edbaf879ac9bfa725146c12089cbbb8/url HTTP/1.1" 200 95
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:https://web.whatsapp.com/
+WARNING:root:conectar() demorou 0.531 seconds!
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 73
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:False
+DEBUG:root:entrou no if
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "var jq = document.createElement(\"script\");\n                                  jq.src = \"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\";\n                                  document.getElementsByTagName('head')[0].appendChild(jq);", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "window.$c = jQuery.noConflict()", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "(function(){\n    if( $c(\".executando-automacao\").length == 0 ){\n    $c(\"body\").prepend('<div class=\"executando-automacao\">'+\n    '<button style=\"user-select: all;pointer-events: all;text-align: center;width: 100%;background-color: lightgray;\" onclick=\"$c(\\'.executando-automacao\\').hide()\">fechar</button>'+\n    '<div></div></div>');\n    var style = $c('<style>'+\n'.executando-automacao{pointer-events:none;margin:auto;position:fixed;display:none;z-index:1000;background-color:red;top:0;right:0;left:0;bottom:0;'+\n'}.executando-automacao > div {border:15px solid #f3f3f3;border-radius:50%;border-top:15px solid #3498db;width: 80px;'+\n'height:80px;animation:rodar 2s linear infinite;display:block;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;'+\n'}@keyframes rodar {0% { transform: rotate(0deg); }100% { transform: rotate(360deg); }'+\n'}'+\n    '</style>');\n    $c('html > head').append(style);}\n    $c(\".executando-automacao\").show();\n    })();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:contatoAtual
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']//button//span[@data-icon='search']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click {"id": "0.5153650245780483-1"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//span//div//button//span[@data-icon='x']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 370
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/elements {"using": "xpath", "value": "//div[@id='main']/header/div"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/elements HTTP/1.1" 200 70
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:tentando achar telefone
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//div/span[contains(@class,'selectable-text invisible-space copyable-text')]/span[contains(text(),'+55 ')]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 435
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:deu exessão
+DEBUG:root:<class 'selenium.common.exceptions.NoSuchElementException'>
+DEBUG:root:enviarMensagem
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:18981293879
+DEBUG:root:nao sao iguais
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI1
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']/div[1]/div/label/div/div[2]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI2
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/clear {"id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/clear HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value {"text": "18981293879", "value": ["1", "8", "9", "8", "1", "2", "9", "3", "8", "7", "9"], "id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI4
+DEBUG:root:CHEGOU AQUI5
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/elements {"using": "xpath", "value": "//*[@id='pane-side']//div[text()='Conversas']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/elements HTTP/1.1" 200 104
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI6
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value {"text": "\ue006", "value": ["\ue006"], "id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI7
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//footer//div[@contenteditable='true']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-4/click {"id": "0.5153650245780483-4"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-4/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "$c(\"div[contenteditable='true']\").html(('.Mensagem de Teste').replace(/<br>/g, \"\\n\"));", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-4/value {"text": "\ue011\ue017", "value": ["\ue011", "\ue017"], "id": "0.5153650245780483-4"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-4/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-4/value {"text": "\ue006", "value": ["\ue006"], "id": "0.5153650245780483-4"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-4/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI0 exite
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:18981293879
+DEBUG:root:CHEGOU AQUI7 outro
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "$c(\".executando-automacao\").hide();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:sendFromOptions() demorou 3.859 seconds!
+WARNING:root:main() demorou 3.891 seconds!
+DEBUG:root:Sended
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/url {}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "GET /session/7edbaf879ac9bfa725146c12089cbbb8/url HTTP/1.1" 200 95
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:https://web.whatsapp.com/
+WARNING:root:conectar() demorou 0.578 seconds!
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "(function(){\n    if( $c(\".executando-automacao\").length == 0 ){\n    $c(\"body\").prepend('<div class=\"executando-automacao\">'+\n    '<button style=\"user-select: all;pointer-events: all;text-align: center;width: 100%;background-color: lightgray;\" onclick=\"$c(\\'.executando-automacao\\').hide()\">fechar</button>'+\n    '<div></div></div>');\n    var style = $c('<style>'+\n'.executando-automacao{pointer-events:none;margin:auto;position:fixed;display:none;z-index:1000;background-color:red;top:0;right:0;left:0;bottom:0;'+\n'}.executando-automacao > div {border:15px solid #f3f3f3;border-radius:50%;border-top:15px solid #3498db;width: 80px;'+\n'height:80px;animation:rodar 2s linear infinite;display:block;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;'+\n'}@keyframes rodar {0% { transform: rotate(0deg); }100% { transform: rotate(360deg); }'+\n'}'+\n    '</style>');\n    $c('html > head').append(style);}\n    $c(\".executando-automacao\").show();\n    })();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:contatoAtual
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']//button//span[@data-icon='search']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click {"id": "0.5153650245780483-1"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//span//div//button//span[@data-icon='x']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 370
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/elements {"using": "xpath", "value": "//div[@id='main']/header/div"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/elements HTTP/1.1" 200 174
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-6/click {"id": "0.5153650245780483-6"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-6/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:tentando achar telefone
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//div/span[contains(@class,'selectable-text invisible-space copyable-text')]/span[contains(text(),'+55 ')]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 435
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:deu exessão
+DEBUG:root:<class 'selenium.common.exceptions.NoSuchElementException'>
+DEBUG:root:enviarMensagem
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:18981293879
+DEBUG:root:nao sao iguais
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI1
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']/div[1]/div/label/div/div[2]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI2
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/clear {"id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/clear HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value {"text": "18981293879", "value": ["1", "8", "9", "8", "1", "2", "9", "3", "8", "7", "9"], "id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI4
+DEBUG:root:CHEGOU AQUI5
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/elements {"using": "xpath", "value": "//*[@id='pane-side']//div[text()='Conversas']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/elements HTTP/1.1" 200 70
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI6
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value {"text": "\ue006", "value": ["\ue006"], "id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI7
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']//button//span[@data-icon='search']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click {"id": "0.5153650245780483-1"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI1
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']/div[1]/div/label/div/div[2]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI2
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/clear {"id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/clear HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value {"text": "1881293879", "value": ["1", "8", "8", "1", "2", "9", "3", "8", "7", "9"], "id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI4
+DEBUG:root:CHEGOU AQUI5
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/elements {"using": "xpath", "value": "//*[@id='pane-side']//div[text()='Conversas']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/elements HTTP/1.1" 200 70
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI6
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value {"text": "\ue006", "value": ["\ue006"], "id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI7
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']//button//span[@data-icon='search']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click {"id": "0.5153650245780483-1"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "$c(\".executando-automacao\").hide();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:sendFromOptions() demorou 23.235 seconds!
+WARNING:root:main() demorou 23.328 seconds!
+DEBUG:root:Sended
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/url {}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "GET /session/7edbaf879ac9bfa725146c12089cbbb8/url HTTP/1.1" 200 95
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:https://web.whatsapp.com/
+WARNING:root:conectar() demorou 0.016 seconds!
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "(function(){\n    if( $c(\".executando-automacao\").length == 0 ){\n    $c(\"body\").prepend('<div class=\"executando-automacao\">'+\n    '<button style=\"user-select: all;pointer-events: all;text-align: center;width: 100%;background-color: lightgray;\" onclick=\"$c(\\'.executando-automacao\\').hide()\">fechar</button>'+\n    '<div></div></div>');\n    var style = $c('<style>'+\n'.executando-automacao{pointer-events:none;margin:auto;position:fixed;display:none;z-index:1000;background-color:red;top:0;right:0;left:0;bottom:0;'+\n'}.executando-automacao > div {border:15px solid #f3f3f3;border-radius:50%;border-top:15px solid #3498db;width: 80px;'+\n'height:80px;animation:rodar 2s linear infinite;display:block;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;'+\n'}@keyframes rodar {0% { transform: rotate(0deg); }100% { transform: rotate(360deg); }'+\n'}'+\n    '</style>');\n    $c('html > head').append(style);}\n    $c(\".executando-automacao\").show();\n    })();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:contatoAtual
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']//button//span[@data-icon='search']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click {"id": "0.5153650245780483-1"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//span//div//button//span[@data-icon='x']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 370
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/elements {"using": "xpath", "value": "//div[@id='main']/header/div"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/elements HTTP/1.1" 200 174
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-6/click {"id": "0.5153650245780483-6"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-6/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:tentando achar telefone
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//div/span[contains(@class,'selectable-text invisible-space copyable-text')]/span[contains(text(),'+55 ')]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 435
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:deu exessão
+DEBUG:root:<class 'selenium.common.exceptions.NoSuchElementException'>
+DEBUG:root:enviarMensagem
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:18981293879
+DEBUG:root:nao sao iguais
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI1
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']/div[1]/div/label/div/div[2]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI2
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/clear {"id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/clear HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value {"text": "18981293879", "value": ["1", "8", "9", "8", "1", "2", "9", "3", "8", "7", "9"], "id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI4
+DEBUG:root:CHEGOU AQUI5
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/elements {"using": "xpath", "value": "//*[@id='pane-side']//div[text()='Conversas']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/elements HTTP/1.1" 200 104
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI6
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value {"text": "\ue006", "value": ["\ue006"], "id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI7
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//footer//div[@contenteditable='true']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-9/click {"id": "0.5153650245780483-9"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-9/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "$c(\"div[contenteditable='true']\").html(('.Eu amo muito Voc\u00ea').replace(/<br>/g, \"\\n\"));", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-9/value {"text": "\ue011\ue017", "value": ["\ue011", "\ue017"], "id": "0.5153650245780483-9"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-9/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-9/value {"text": "\ue006", "value": ["\ue006"], "id": "0.5153650245780483-9"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-9/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI0 exite
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:18981293879
+DEBUG:root:CHEGOU AQUI7 outro
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "$c(\".executando-automacao\").hide();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:sendFromOptions() demorou 2.578 seconds!
+WARNING:root:main() demorou 2.593 seconds!
+DEBUG:root:Sended
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/url {}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "GET /session/7edbaf879ac9bfa725146c12089cbbb8/url HTTP/1.1" 200 95
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:https://web.whatsapp.com/
+WARNING:root:conectar() demorou 0.015 seconds!
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "(function(){\n    if( $c(\".executando-automacao\").length == 0 ){\n    $c(\"body\").prepend('<div class=\"executando-automacao\">'+\n    '<button style=\"user-select: all;pointer-events: all;text-align: center;width: 100%;background-color: lightgray;\" onclick=\"$c(\\'.executando-automacao\\').hide()\">fechar</button>'+\n    '<div></div></div>');\n    var style = $c('<style>'+\n'.executando-automacao{pointer-events:none;margin:auto;position:fixed;display:none;z-index:1000;background-color:red;top:0;right:0;left:0;bottom:0;'+\n'}.executando-automacao > div {border:15px solid #f3f3f3;border-radius:50%;border-top:15px solid #3498db;width: 80px;'+\n'height:80px;animation:rodar 2s linear infinite;display:block;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;'+\n'}@keyframes rodar {0% { transform: rotate(0deg); }100% { transform: rotate(360deg); }'+\n'}'+\n    '</style>');\n    $c('html > head').append(style);}\n    $c(\".executando-automacao\").show();\n    })();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:contatoAtual
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']//button//span[@data-icon='search']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click {"id": "0.5153650245780483-1"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//span//div//button//span[@data-icon='x']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 103
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:tentando achar telefone
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//div/span[contains(@class,'selectable-text invisible-space copyable-text')]/span[contains(text(),'+55 ')]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 435
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:deu exessão
+DEBUG:root:<class 'selenium.common.exceptions.NoSuchElementException'>
+DEBUG:root:enviarMensagem
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:18981293879
+DEBUG:root:nao sao iguais
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI1
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']/div[1]/div/label/div/div[2]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI2
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/clear {"id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/clear HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value {"text": "18981293879", "value": ["1", "8", "9", "8", "1", "2", "9", "3", "8", "7", "9"], "id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI4
+DEBUG:root:CHEGOU AQUI5
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/elements {"using": "xpath", "value": "//*[@id='pane-side']//div[text()='Conversas']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/elements HTTP/1.1" 200 105
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI6
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value {"text": "\ue006", "value": ["\ue006"], "id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI7
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//footer//div[@contenteditable='true']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-9/click {"id": "0.5153650245780483-9"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-9/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "$c(\"div[contenteditable='true']\").html(('.Eu amo muito Voc\u00ea').replace(/<br>/g, \"\\n\"));", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-9/value {"text": "\ue011\ue017", "value": ["\ue011", "\ue017"], "id": "0.5153650245780483-9"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-9/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-9/value {"text": "\ue006", "value": ["\ue006"], "id": "0.5153650245780483-9"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-9/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI0 exite
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:18981293879
+DEBUG:root:CHEGOU AQUI7 outro
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "$c(\".executando-automacao\").hide();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:sendFromOptions() demorou 1.687 seconds!
+WARNING:root:main() demorou 1.719 seconds!
+DEBUG:root:Sended
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/url {}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "GET /session/7edbaf879ac9bfa725146c12089cbbb8/url HTTP/1.1" 200 95
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:https://web.whatsapp.com/
+WARNING:root:conectar() demorou 0.000 seconds!
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "(function(){\n    if( $c(\".executando-automacao\").length == 0 ){\n    $c(\"body\").prepend('<div class=\"executando-automacao\">'+\n    '<button style=\"user-select: all;pointer-events: all;text-align: center;width: 100%;background-color: lightgray;\" onclick=\"$c(\\'.executando-automacao\\').hide()\">fechar</button>'+\n    '<div></div></div>');\n    var style = $c('<style>'+\n'.executando-automacao{pointer-events:none;margin:auto;position:fixed;display:none;z-index:1000;background-color:red;top:0;right:0;left:0;bottom:0;'+\n'}.executando-automacao > div {border:15px solid #f3f3f3;border-radius:50%;border-top:15px solid #3498db;width: 80px;'+\n'height:80px;animation:rodar 2s linear infinite;display:block;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;'+\n'}@keyframes rodar {0% { transform: rotate(0deg); }100% { transform: rotate(360deg); }'+\n'}'+\n    '</style>');\n    $c('html > head').append(style);}\n    $c(\".executando-automacao\").show();\n    })();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:contatoAtual
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']//button//span[@data-icon='search']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click {"id": "0.5153650245780483-1"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//span//div//button//span[@data-icon='x']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 103
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:tentando achar telefone
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//div/span[contains(@class,'selectable-text invisible-space copyable-text')]/span[contains(text(),'+55 ')]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 435
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:deu exessão
+DEBUG:root:<class 'selenium.common.exceptions.NoSuchElementException'>
+DEBUG:root:enviarMensagem
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:18981293879
+DEBUG:root:nao sao iguais
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI1
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']/div[1]/div/label/div/div[2]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI2
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/clear {"id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/clear HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value {"text": "18981293879", "value": ["1", "8", "9", "8", "1", "2", "9", "3", "8", "7", "9"], "id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI4
+DEBUG:root:CHEGOU AQUI5
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/elements {"using": "xpath", "value": "//*[@id='pane-side']//div[text()='Conversas']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/elements HTTP/1.1" 200 105
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI6
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value {"text": "\ue006", "value": ["\ue006"], "id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI7
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//footer//div[@contenteditable='true']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-9/click {"id": "0.5153650245780483-9"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-9/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "$c(\"div[contenteditable='true']\").html(('.Eu amo muito Voc\u00ea, linda').replace(/<br>/g, \"\\n\"));", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-9/value {"text": "\ue011\ue017", "value": ["\ue011", "\ue017"], "id": "0.5153650245780483-9"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-9/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-9/value {"text": "\ue006", "value": ["\ue006"], "id": "0.5153650245780483-9"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-9/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI0 exite
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:18981293879
+DEBUG:root:CHEGOU AQUI7 outro
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "$c(\".executando-automacao\").hide();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:sendFromOptions() demorou 1.812 seconds!
+WARNING:root:main() demorou 1.844 seconds!
+DEBUG:root:Sended
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/url {}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "GET /session/7edbaf879ac9bfa725146c12089cbbb8/url HTTP/1.1" 200 95
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:https://web.whatsapp.com/
+WARNING:root:conectar() demorou 0.015 seconds!
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "(function(){\n    if( $c(\".executando-automacao\").length == 0 ){\n    $c(\"body\").prepend('<div class=\"executando-automacao\">'+\n    '<button style=\"user-select: all;pointer-events: all;text-align: center;width: 100%;background-color: lightgray;\" onclick=\"$c(\\'.executando-automacao\\').hide()\">fechar</button>'+\n    '<div></div></div>');\n    var style = $c('<style>'+\n'.executando-automacao{pointer-events:none;margin:auto;position:fixed;display:none;z-index:1000;background-color:red;top:0;right:0;left:0;bottom:0;'+\n'}.executando-automacao > div {border:15px solid #f3f3f3;border-radius:50%;border-top:15px solid #3498db;width: 80px;'+\n'height:80px;animation:rodar 2s linear infinite;display:block;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;'+\n'}@keyframes rodar {0% { transform: rotate(0deg); }100% { transform: rotate(360deg); }'+\n'}'+\n    '</style>');\n    $c('html > head').append(style);}\n    $c(\".executando-automacao\").show();\n    })();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:contatoAtual
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']//button//span[@data-icon='search']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click {"id": "0.5153650245780483-1"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//span//div//button//span[@data-icon='x']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 370
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/elements {"using": "xpath", "value": "//div[@id='main']/header/div"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/elements HTTP/1.1" 200 177
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-14/click {"id": "0.5153650245780483-14"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-14/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:tentando achar telefone
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//div/span[contains(@class,'selectable-text invisible-space copyable-text')]/span[contains(text(),'+55 ')]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 435
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:deu exessão
+DEBUG:root:<class 'selenium.common.exceptions.NoSuchElementException'>
+DEBUG:root:enviarMensagem
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:18981293879
+DEBUG:root:nao sao iguais
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI1
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']/div[1]/div/label/div/div[2]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI2
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/clear {"id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/clear HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value {"text": "18981293879", "value": ["1", "8", "9", "8", "1", "2", "9", "3", "8", "7", "9"], "id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI4
+DEBUG:root:CHEGOU AQUI5
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/elements {"using": "xpath", "value": "//*[@id='pane-side']//div[text()='Conversas']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/elements HTTP/1.1" 200 105
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI6
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value {"text": "\ue006", "value": ["\ue006"], "id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI7
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//footer//div[@contenteditable='true']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 103
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/click {"id": "0.5153650245780483-17"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "$c(\"div[contenteditable='true']\").html(('.Eu amo muito Voc\u00ea, bebezona').replace(/<br>/g, \"\\n\"));", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/value {"text": "\ue011\ue017", "value": ["\ue011", "\ue017"], "id": "0.5153650245780483-17"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/value {"text": "\ue006", "value": ["\ue006"], "id": "0.5153650245780483-17"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI0 exite
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:18981293879
+DEBUG:root:CHEGOU AQUI7 outro
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "$c(\".executando-automacao\").hide();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:sendFromOptions() demorou 5.922 seconds!
+WARNING:root:main() demorou 5.953 seconds!
+DEBUG:root:Sended
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/url {}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "GET /session/7edbaf879ac9bfa725146c12089cbbb8/url HTTP/1.1" 200 95
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:https://web.whatsapp.com/
+WARNING:root:conectar() demorou 0.015 seconds!
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "(function(){\n    if( $c(\".executando-automacao\").length == 0 ){\n    $c(\"body\").prepend('<div class=\"executando-automacao\">'+\n    '<button style=\"user-select: all;pointer-events: all;text-align: center;width: 100%;background-color: lightgray;\" onclick=\"$c(\\'.executando-automacao\\').hide()\">fechar</button>'+\n    '<div></div></div>');\n    var style = $c('<style>'+\n'.executando-automacao{pointer-events:none;margin:auto;position:fixed;display:none;z-index:1000;background-color:red;top:0;right:0;left:0;bottom:0;'+\n'}.executando-automacao > div {border:15px solid #f3f3f3;border-radius:50%;border-top:15px solid #3498db;width: 80px;'+\n'height:80px;animation:rodar 2s linear infinite;display:block;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;'+\n'}@keyframes rodar {0% { transform: rotate(0deg); }100% { transform: rotate(360deg); }'+\n'}'+\n    '</style>');\n    $c('html > head').append(style);}\n    $c(\".executando-automacao\").show();\n    })();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:contatoAtual
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']//button//span[@data-icon='search']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click {"id": "0.5153650245780483-1"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//span//div//button//span[@data-icon='x']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 370
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/elements {"using": "xpath", "value": "//div[@id='main']/header/div"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/elements HTTP/1.1" 200 177
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-19/click {"id": "0.5153650245780483-19"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-19/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:tentando achar telefone
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//div/span[contains(@class,'selectable-text invisible-space copyable-text')]/span[contains(text(),'+55 ')]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 435
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:deu exessão
+DEBUG:root:<class 'selenium.common.exceptions.NoSuchElementException'>
+DEBUG:root:enviarMensagem
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:18981293879
+DEBUG:root:nao sao iguais
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI1
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']/div[1]/div/label/div/div[2]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI2
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/clear {"id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/clear HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value {"text": "18981293879", "value": ["1", "8", "9", "8", "1", "2", "9", "3", "8", "7", "9"], "id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI4
+DEBUG:root:CHEGOU AQUI5
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/elements {"using": "xpath", "value": "//*[@id='pane-side']//div[text()='Conversas']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/elements HTTP/1.1" 200 105
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI6
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value {"text": "\ue006", "value": ["\ue006"], "id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI7
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//footer//div[@contenteditable='true']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 103
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/click {"id": "0.5153650245780483-17"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "$c(\"div[contenteditable='true']\").html(('.Eu amo muito Voc\u00ea, bebezona').replace(/<br>/g, \"\\n\"));", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/value {"text": "\ue011\ue017", "value": ["\ue011", "\ue017"], "id": "0.5153650245780483-17"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/value {"text": "\ue006", "value": ["\ue006"], "id": "0.5153650245780483-17"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI0 exite
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:18981293879
+DEBUG:root:CHEGOU AQUI7 outro
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "$c(\".executando-automacao\").hide();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:sendFromOptions() demorou 4.547 seconds!
+WARNING:root:main() demorou 4.610 seconds!
+DEBUG:root:Sended
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/url {}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "GET /session/7edbaf879ac9bfa725146c12089cbbb8/url HTTP/1.1" 200 95
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:https://web.whatsapp.com/
+WARNING:root:conectar() demorou 0.031 seconds!
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "(function(){\n    if( $c(\".executando-automacao\").length == 0 ){\n    $c(\"body\").prepend('<div class=\"executando-automacao\">'+\n    '<button style=\"user-select: all;pointer-events: all;text-align: center;width: 100%;background-color: lightgray;\" onclick=\"$c(\\'.executando-automacao\\').hide()\">fechar</button>'+\n    '<div></div></div>');\n    var style = $c('<style>'+\n'.executando-automacao{pointer-events:none;margin:auto;position:fixed;display:none;z-index:1000;background-color:red;top:0;right:0;left:0;bottom:0;'+\n'}.executando-automacao > div {border:15px solid #f3f3f3;border-radius:50%;border-top:15px solid #3498db;width: 80px;'+\n'height:80px;animation:rodar 2s linear infinite;display:block;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;'+\n'}@keyframes rodar {0% { transform: rotate(0deg); }100% { transform: rotate(360deg); }'+\n'}'+\n    '</style>');\n    $c('html > head').append(style);}\n    $c(\".executando-automacao\").show();\n    })();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:contatoAtual
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']//button//span[@data-icon='search']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click {"id": "0.5153650245780483-1"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//span//div//button//span[@data-icon='x']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 103
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:tentando achar telefone
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//div/span[contains(@class,'selectable-text invisible-space copyable-text')]/span[contains(text(),'+55 ')]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 435
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:deu exessão
+DEBUG:root:<class 'selenium.common.exceptions.NoSuchElementException'>
+DEBUG:root:enviarMensagem
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:Love Amor
+DEBUG:root:teste telefone eh o ataual
+DEBUG:root:
+DEBUG:root:
+DEBUG:root:sao iguais
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//footer//div[@contenteditable='true']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 103
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/click {"id": "0.5153650245780483-17"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "$c(\"div[contenteditable='true']\").html(('.A maquina rotuladora parou por 5min_rot').replace(/<br>/g, \"\\n\"));", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/value {"text": "\ue011\ue017", "value": ["\ue011", "\ue017"], "id": "0.5153650245780483-17"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/value {"text": "\ue006", "value": ["\ue006"], "id": "0.5153650245780483-17"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI0 exite
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:Love Amor
+DEBUG:root:teste telefone eh o ataual
+DEBUG:root:
+DEBUG:root:
+DEBUG:root:CHEGOU AQUI0 sao iguais
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "$c(\".executando-automacao\").hide();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:sendFromOptions() demorou 2.297 seconds!
+WARNING:root:main() demorou 2.313 seconds!
+DEBUG:root:Sended
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/url {}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "GET /session/7edbaf879ac9bfa725146c12089cbbb8/url HTTP/1.1" 200 95
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:https://web.whatsapp.com/
+WARNING:root:conectar() demorou 0.016 seconds!
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "(function(){\n    if( $c(\".executando-automacao\").length == 0 ){\n    $c(\"body\").prepend('<div class=\"executando-automacao\">'+\n    '<button style=\"user-select: all;pointer-events: all;text-align: center;width: 100%;background-color: lightgray;\" onclick=\"$c(\\'.executando-automacao\\').hide()\">fechar</button>'+\n    '<div></div></div>');\n    var style = $c('<style>'+\n'.executando-automacao{pointer-events:none;margin:auto;position:fixed;display:none;z-index:1000;background-color:red;top:0;right:0;left:0;bottom:0;'+\n'}.executando-automacao > div {border:15px solid #f3f3f3;border-radius:50%;border-top:15px solid #3498db;width: 80px;'+\n'height:80px;animation:rodar 2s linear infinite;display:block;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;'+\n'}@keyframes rodar {0% { transform: rotate(0deg); }100% { transform: rotate(360deg); }'+\n'}'+\n    '</style>');\n    $c('html > head').append(style);}\n    $c(\".executando-automacao\").show();\n    })();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:contatoAtual
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']//button//span[@data-icon='search']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click {"id": "0.5153650245780483-1"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//span//div//button//span[@data-icon='x']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 103
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:tentando achar telefone
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//div/span[contains(@class,'selectable-text invisible-space copyable-text')]/span[contains(text(),'+55 ')]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 435
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:deu exessão
+DEBUG:root:<class 'selenium.common.exceptions.NoSuchElementException'>
+DEBUG:root:enviarMensagem
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:undefined
+DEBUG:root:teste telefone eh o ataual
+DEBUG:root:
+DEBUG:root:
+DEBUG:root:sao iguais
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//footer//div[@contenteditable='true']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 103
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/click {"id": "0.5153650245780483-17"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "$c(\"div[contenteditable='true']\").html(('.A maquina rotuladora parou por undefined').replace(/<br>/g, \"\\n\"));", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/value {"text": "\ue011\ue017", "value": ["\ue011", "\ue017"], "id": "0.5153650245780483-17"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/value {"text": "\ue006", "value": ["\ue006"], "id": "0.5153650245780483-17"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-17/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI0 exite
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:undefined
+DEBUG:root:teste telefone eh o ataual
+DEBUG:root:
+DEBUG:root:
+DEBUG:root:CHEGOU AQUI0 sao iguais
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "$c(\".executando-automacao\").hide();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:sendFromOptions() demorou 1.719 seconds!
+WARNING:root:main() demorou 1.735 seconds!
+DEBUG:root:Sended
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/url {}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "GET /session/7edbaf879ac9bfa725146c12089cbbb8/url HTTP/1.1" 200 95
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:https://web.whatsapp.com/
+WARNING:root:conectar() demorou 0.016 seconds!
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "(function(){\n    if( $c(\".executando-automacao\").length == 0 ){\n    $c(\"body\").prepend('<div class=\"executando-automacao\">'+\n    '<button style=\"user-select: all;pointer-events: all;text-align: center;width: 100%;background-color: lightgray;\" onclick=\"$c(\\'.executando-automacao\\').hide()\">fechar</button>'+\n    '<div></div></div>');\n    var style = $c('<style>'+\n'.executando-automacao{pointer-events:none;margin:auto;position:fixed;display:none;z-index:1000;background-color:red;top:0;right:0;left:0;bottom:0;'+\n'}.executando-automacao > div {border:15px solid #f3f3f3;border-radius:50%;border-top:15px solid #3498db;width: 80px;'+\n'height:80px;animation:rodar 2s linear infinite;display:block;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;'+\n'}@keyframes rodar {0% { transform: rotate(0deg); }100% { transform: rotate(360deg); }'+\n'}'+\n    '</style>');\n    $c('html > head').append(style);}\n    $c(\".executando-automacao\").show();\n    })();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:contatoAtual
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']//button//span[@data-icon='search']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click {"id": "0.5153650245780483-1"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-1/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//span//div//button//span[@data-icon='x']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 370
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/elements {"using": "xpath", "value": "//div[@id='main']/header/div"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/elements HTTP/1.1" 200 177
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-24/click {"id": "0.5153650245780483-24"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-24/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:tentando achar telefone
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//div/span[contains(@class,'selectable-text invisible-space copyable-text')]/span[contains(text(),'+55 ')]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 435
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:deu exessão
+DEBUG:root:<class 'selenium.common.exceptions.NoSuchElementException'>
+DEBUG:root:enviarMensagem
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:18981293879
+DEBUG:root:nao sao iguais
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI1
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//*[@id='side']/div[1]/div/label/div/div[2]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI2
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/clear {"id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/clear HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value {"text": "18981293879", "value": ["1", "8", "9", "8", "1", "2", "9", "3", "8", "7", "9"], "id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI4
+DEBUG:root:CHEGOU AQUI5
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/elements {"using": "xpath", "value": "//*[@id='pane-side']//div[text()='Conversas']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/elements HTTP/1.1" 200 105
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI6
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value {"text": "\ue006", "value": ["\ue006"], "id": "0.5153650245780483-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI7
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element {"using": "xpath", "value": "//footer//div[@contenteditable='true']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element HTTP/1.1" 200 103
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-27/click {"id": "0.5153650245780483-27"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-27/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "$c(\"div[contenteditable='true']\").html(('.A maquina rotuladora parou por teste legal').replace(/<br>/g, \"\\n\"));", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-27/value {"text": "\ue011\ue017", "value": ["\ue011", "\ue017"], "id": "0.5153650245780483-27"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-27/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-27/value {"text": "\ue006", "value": ["\ue006"], "id": "0.5153650245780483-27"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/element/0.5153650245780483-27/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI0 exite
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:18981293879
+DEBUG:root:CHEGOU AQUI7 outro
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54959/session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync {"script": "$c(\".executando-automacao\").hide();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:54959
+DEBUG:urllib3.connectionpool:http://127.0.0.1:54959 "POST /session/7edbaf879ac9bfa725146c12089cbbb8/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:sendFromOptions() demorou 3.672 seconds!
+WARNING:root:main() demorou 3.719 seconds!
+DEBUG:root:Sended
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/url {}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "GET /session/c53962c6ad2a419d61a73e6f33f87dc9/url HTTP/1.1" 200 95
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:https://web.whatsapp.com/
+WARNING:root:conectar() demorou 0.016 seconds!
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync HTTP/1.1" 200 73
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:False
+DEBUG:root:entrou no if
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync {"script": "var jq = document.createElement(\"script\");\n                                  jq.src = \"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\";\n                                  document.getElementsByTagName('head')[0].appendChild(jq);", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync {"script": "window.$c = jQuery.noConflict()", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync {"script": "(function(){\n    if( $c(\".executando-automacao\").length == 0 ){\n    $c(\"body\").prepend('<div class=\"executando-automacao\">'+\n    '<button style=\"user-select: all;pointer-events: all;text-align: center;width: 100%;background-color: lightgray;\" onclick=\"$c(\\'.executando-automacao\\').hide()\">fechar</button>'+\n    '<div></div></div>');\n    var style = $c('<style>'+\n'.executando-automacao{pointer-events:none;margin:auto;position:fixed;display:none;z-index:1000;background-color:red;top:0;right:0;left:0;bottom:0;'+\n'}.executando-automacao > div {border:15px solid #f3f3f3;border-radius:50%;border-top:15px solid #3498db;width: 80px;'+\n'height:80px;animation:rodar 2s linear infinite;display:block;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;'+\n'}@keyframes rodar {0% { transform: rotate(0deg); }100% { transform: rotate(360deg); }'+\n'}'+\n    '</style>');\n    $c('html > head').append(style);}\n    $c(\".executando-automacao\").show();\n    })();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:contatoAtual
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//*[@id='side']//button//span[@data-icon='search']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element/0.9611457331799171-1/click {"id": "0.9611457331799171-1"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element/0.9611457331799171-1/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//span//div//button//span[@data-icon='x']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 370
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/elements {"using": "xpath", "value": "//div[@id='main']/header/div"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/elements HTTP/1.1" 200 70
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:tentando achar telefone
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//div/span[contains(@class,'selectable-text invisible-space copyable-text')]/span[contains(text(),'+55 ')]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 435
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:deu exessão
+DEBUG:root:<class 'selenium.common.exceptions.NoSuchElementException'>
+DEBUG:root:enviarMensagem
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:15997247384
+DEBUG:root:nao sao iguais
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI1
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//*[@id='side']/div[1]/div/label/div/div[2]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI2
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element/0.9611457331799171-2/clear {"id": "0.9611457331799171-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element/0.9611457331799171-2/clear HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element/0.9611457331799171-2/value {"text": "15997247384", "value": ["1", "5", "9", "9", "7", "2", "4", "7", "3", "8", "4"], "id": "0.9611457331799171-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element/0.9611457331799171-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI4
+DEBUG:root:CHEGOU AQUI5
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/elements {"using": "xpath", "value": "//*[@id='pane-side']//div[text()='Conversas']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/elements HTTP/1.1" 200 104
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI6
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element/0.9611457331799171-2/value {"text": "\ue006", "value": ["\ue006"], "id": "0.9611457331799171-2"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element/0.9611457331799171-2/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI7
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//footer//div[@contenteditable='true']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 102
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element/0.9611457331799171-4/click {"id": "0.9611457331799171-4"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element/0.9611457331799171-4/click HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync {"script": "$c(\"div[contenteditable='true']\").html(('.A maquina rotuladora parou por 1h').replace(/<br>/g, \"\\n\"));", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element/0.9611457331799171-4/value {"text": "\ue011\ue017", "value": ["\ue011", "\ue017"], "id": "0.9611457331799171-4"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element/0.9611457331799171-4/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element/0.9611457331799171-4/value {"text": "\ue006", "value": ["\ue006"], "id": "0.9611457331799171-4"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element/0.9611457331799171-4/value HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI0 exite
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:15997247384
+DEBUG:root:CHEGOU AQUI7 outro
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync {"script": "$c(\".executando-automacao\").hide();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:sendFromOptions() demorou 4.766 seconds!
+WARNING:root:main() demorou 4.797 seconds!
+DEBUG:root:Sended
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/url {}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "GET /session/c53962c6ad2a419d61a73e6f33f87dc9/url HTTP/1.1" 200 95
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:https://web.whatsapp.com/
+WARNING:root:conectar() demorou 0.016 seconds!
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync {"script": "(function(){\n    if( $c(\".executando-automacao\").length == 0 ){\n    $c(\"body\").prepend('<div class=\"executando-automacao\">'+\n    '<button style=\"user-select: all;pointer-events: all;text-align: center;width: 100%;background-color: lightgray;\" onclick=\"$c(\\'.executando-automacao\\').hide()\">fechar</button>'+\n    '<div></div></div>');\n    var style = $c('<style>'+\n'.executando-automacao{pointer-events:none;margin:auto;position:fixed;display:none;z-index:1000;background-color:red;top:0;right:0;left:0;bottom:0;'+\n'}.executando-automacao > div {border:15px solid #f3f3f3;border-radius:50%;border-top:15px solid #3498db;width: 80px;'+\n'height:80px;animation:rodar 2s linear infinite;display:block;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;'+\n'}@keyframes rodar {0% { transform: rotate(0deg); }100% { transform: rotate(360deg); }'+\n'}'+\n    '</style>');\n    $c('html > head').append(style);}\n    $c(\".executando-automacao\").show();\n    })();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:contatoAtual
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//*[@id='side']//button//span[@data-icon='search']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 379
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//span//div//button//span[@data-icon='x']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 370
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/elements {"using": "xpath", "value": "//div[@id='main']/header/div"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/elements HTTP/1.1" 200 70
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:tentando achar telefone
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//div/span[contains(@class,'selectable-text invisible-space copyable-text')]/span[contains(text(),'+55 ')]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 435
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:deu exessão
+DEBUG:root:<class 'selenium.common.exceptions.NoSuchElementException'>
+DEBUG:root:enviarMensagem
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:18981293879
+DEBUG:root:nao sao iguais
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI1
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//*[@id='side']/div[1]/div/label/div/div[2]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 372
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Sended
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/url {}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "GET /session/c53962c6ad2a419d61a73e6f33f87dc9/url HTTP/1.1" 200 95
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:https://web.whatsapp.com/
+WARNING:root:conectar() demorou 0.016 seconds!
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync {"script": "(function(){\n    if( $c(\".executando-automacao\").length == 0 ){\n    $c(\"body\").prepend('<div class=\"executando-automacao\">'+\n    '<button style=\"user-select: all;pointer-events: all;text-align: center;width: 100%;background-color: lightgray;\" onclick=\"$c(\\'.executando-automacao\\').hide()\">fechar</button>'+\n    '<div></div></div>');\n    var style = $c('<style>'+\n'.executando-automacao{pointer-events:none;margin:auto;position:fixed;display:none;z-index:1000;background-color:red;top:0;right:0;left:0;bottom:0;'+\n'}.executando-automacao > div {border:15px solid #f3f3f3;border-radius:50%;border-top:15px solid #3498db;width: 80px;'+\n'height:80px;animation:rodar 2s linear infinite;display:block;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;'+\n'}@keyframes rodar {0% { transform: rotate(0deg); }100% { transform: rotate(360deg); }'+\n'}'+\n    '</style>');\n    $c('html > head').append(style);}\n    $c(\".executando-automacao\").show();\n    })();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:contatoAtual
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//*[@id='side']//button//span[@data-icon='search']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 379
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//span//div//button//span[@data-icon='x']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 370
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/elements {"using": "xpath", "value": "//div[@id='main']/header/div"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/elements HTTP/1.1" 200 70
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:tentando achar telefone
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//div/span[contains(@class,'selectable-text invisible-space copyable-text')]/span[contains(text(),'+55 ')]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 435
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:deu exessão
+DEBUG:root:<class 'selenium.common.exceptions.NoSuchElementException'>
+DEBUG:root:enviarMensagem
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:18981293879
+DEBUG:root:nao sao iguais
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI1
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//*[@id='side']/div[1]/div/label/div/div[2]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 372
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Sended
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/url {}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "GET /session/c53962c6ad2a419d61a73e6f33f87dc9/url HTTP/1.1" 200 95
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:https://web.whatsapp.com/
+WARNING:root:conectar() demorou 0.015 seconds!
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync {"script": "(function(){\n    if( $c(\".executando-automacao\").length == 0 ){\n    $c(\"body\").prepend('<div class=\"executando-automacao\">'+\n    '<button style=\"user-select: all;pointer-events: all;text-align: center;width: 100%;background-color: lightgray;\" onclick=\"$c(\\'.executando-automacao\\').hide()\">fechar</button>'+\n    '<div></div></div>');\n    var style = $c('<style>'+\n'.executando-automacao{pointer-events:none;margin:auto;position:fixed;display:none;z-index:1000;background-color:red;top:0;right:0;left:0;bottom:0;'+\n'}.executando-automacao > div {border:15px solid #f3f3f3;border-radius:50%;border-top:15px solid #3498db;width: 80px;'+\n'height:80px;animation:rodar 2s linear infinite;display:block;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;'+\n'}@keyframes rodar {0% { transform: rotate(0deg); }100% { transform: rotate(360deg); }'+\n'}'+\n    '</style>');\n    $c('html > head').append(style);}\n    $c(\".executando-automacao\").show();\n    })();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:contatoAtual
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//*[@id='side']//button//span[@data-icon='search']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 379
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//span//div//button//span[@data-icon='x']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 370
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/elements {"using": "xpath", "value": "//div[@id='main']/header/div"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/elements HTTP/1.1" 200 70
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:tentando achar telefone
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//div/span[contains(@class,'selectable-text invisible-space copyable-text')]/span[contains(text(),'+55 ')]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 435
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:deu exessão
+DEBUG:root:<class 'selenium.common.exceptions.NoSuchElementException'>
+DEBUG:root:enviarMensagem
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:18981293879
+DEBUG:root:nao sao iguais
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI1
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//*[@id='side']/div[1]/div/label/div/div[2]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 372
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Sended
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/url {}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "GET /session/c53962c6ad2a419d61a73e6f33f87dc9/url HTTP/1.1" 200 95
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:https://web.whatsapp.com/
+WARNING:root:conectar() demorou 0.015 seconds!
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync {"script": "return typeof $c !== 'undefined'", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:True
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync {"script": "(function(){\n    if( $c(\".executando-automacao\").length == 0 ){\n    $c(\"body\").prepend('<div class=\"executando-automacao\">'+\n    '<button style=\"user-select: all;pointer-events: all;text-align: center;width: 100%;background-color: lightgray;\" onclick=\"$c(\\'.executando-automacao\\').hide()\">fechar</button>'+\n    '<div></div></div>');\n    var style = $c('<style>'+\n'.executando-automacao{pointer-events:none;margin:auto;position:fixed;display:none;z-index:1000;background-color:red;top:0;right:0;left:0;bottom:0;'+\n'}.executando-automacao > div {border:15px solid #f3f3f3;border-radius:50%;border-top:15px solid #3498db;width: 80px;'+\n'height:80px;animation:rodar 2s linear infinite;display:block;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;'+\n'}@keyframes rodar {0% { transform: rotate(0deg); }100% { transform: rotate(360deg); }'+\n'}'+\n    '</style>');\n    $c('html > head').append(style);}\n    $c(\".executando-automacao\").show();\n    })();", "args": []}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/execute/sync HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:contatoAtual
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//*[@id='side']//button//span[@data-icon='search']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 379
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//span//div//button//span[@data-icon='x']"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 370
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/elements {"using": "xpath", "value": "//div[@id='main']/header/div"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/elements HTTP/1.1" 200 70
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:tentando achar telefone
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//div/span[contains(@class,'selectable-text invisible-space copyable-text')]/span[contains(text(),'+55 ')]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 435
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:deu exessão
+DEBUG:root:<class 'selenium.common.exceptions.NoSuchElementException'>
+DEBUG:root:enviarMensagem
+DEBUG:root:isTelefoneIguais
+DEBUG:root:
+DEBUG:root:18981293879
+DEBUG:root:nao sao iguais
+DEBUG:root:CHEGOU AQUI0
+DEBUG:root:CHEGOU AQUI1
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:58660/session/c53962c6ad2a419d61a73e6f33f87dc9/element {"using": "xpath", "value": "//*[@id='side']/div[1]/div/label/div/div[2]"}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:58660
+DEBUG:urllib3.connectionpool:http://127.0.0.1:58660 "POST /session/c53962c6ad2a419d61a73e6f33f87dc9/element HTTP/1.1" 200 372
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
